@@ -1,0 +1,306 @@
+body,
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul li a {
+    color: white !important;
+    font-size: 17px !important;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-size: 50px !important;
+}
+
+.landing {
+    background-image: url(../Images/background2.jpeg);
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+    z-index: 2;
+}
+
+.overly {
+    background: linear-gradient(to bottom, rgba(77, 77, 255, 0.3) 0%, rgba(77, 77, 255, 0.3) 100%);
+    z-index: 1;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.h-100 {
+    height: 50% !important;
+}
+
+nav {
+    z-index: 2;
+}
+
+.landing .text-center {
+    z-index: 3;
+}
+
+.maps iframe {
+    width: 100%;
+    height: 500px;
+    margin: 70px 0;
+}
+
+
+.font {
+    width: 50%;
+    padding: 20px 0;
+}
+
+
+.font-2 .font-3 P {
+    width: 100%;
+    font-size: 15px;
+    line-height: 1;
+    padding: 0 20px;
+}
+
+.font-2 span {
+    font-size: 10PX;
+}
+
+.font-2 {
+    font-size: 25PX;
+    color: #4da6ff;
+    padding: 30px 0;
+}
+
+.form {
+    width: 50%;
+}
+
+.form form {
+    margin: 55px 0;
+    width: 100%;
+    text-align: right;
+}
+
+
+.form form input {
+    width: 90%;
+    margin-bottom: 25px;
+    outline: none;
+    padding: 7px;
+    color: #4da6ff;
+    border-bottom: 3px solid #4da6ff;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+.form form input::placeholder {
+    color: #4da6ff;
+}
+
+.form form textarea {
+    width: 90%;
+    border-radius: 20px;
+    padding: 7px;
+    color: #4da6ff;
+    border: 2px solid #4da6ff;
+    outline: none;
+    margin: 20px 0;
+}
+
+.form form textarea:hover {
+    border: 2px solid #4da6ff;
+    outline: none;
+}
+
+.form form button {
+    color: #4da6ff;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: 0;
+    transition: 0.5s;
+    width: 90%;
+}
+
+.form form button:hover {
+    color: white;
+    background-color: #4da6ff;
+}
+
+.icons {
+    margin-bottom: 20px;
+}
+
+.icons span {
+    margin: 5px 10px;
+}
+
+footer {
+    background-color: rgb(141, 141, 141);
+}
+
+.section-wrap {
+    display: flex;
+
+}
+
+.section-wrap>div {
+    width: 33.333%;
+}
+
+.section-wrap .div-footer1 {
+
+    width: 50%;
+}
+
+.div-footer1 img {
+    width: 100%;
+
+
+}
+
+.div-footer {
+    color: white;
+    padding-top: 50px;
+
+}
+
+.div-footer a {
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.div-footer h6 {
+    font-weight: 650;
+    font-size: 20px;
+}
+
+.div-footer ul, li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 5px 0px;
+}
+
+.lower-footer {
+    color: white;
+    background-color: black;
+    padding: 15px 0px;
+}
+
+.lower-wrap {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons a {
+    padding: 10px;
+    color: white;
+}
+
+
+
+/* responsive mobile */
+
+@media (max-width:992px) {
+    .navbar {
+        z-index: 100000 !important;
+    }
+
+    .text-end {
+        font-size: 10px !important;
+    }
+
+    .navbar-brand {
+        font-size: 35px !important;
+    }
+
+    .navbar-toggler {
+        font-size: 15px !important;
+    }
+
+    .navbar ul li {
+        background-color: rgb(29, 27, 27);
+        color: aliceblue;
+        z-index: 100 !important;
+
+    }
+
+    .navbar ul li a {
+        font-size: 14px !important;
+        z-index: 100 !important;
+    }
+
+    .section-wrap {
+
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+
+    .section-wrap p {
+        font-size: 20px;
+    }
+
+    .div-footer h6 {
+        font-size: 35px;
+    }
+
+    .div-footer ul li {
+        font-size: 20px !important;
+    }
+
+    .logo-icon {
+        display: none;
+    }
+
+    .landing-end {
+        width: 100%;
+    }
+
+    .text-end p {
+        font-size: 20px !important;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .section-wrap>div {
+        width: 100%;
+    }
+
+    .text-center {
+        z-index: 0;
+    }
+
+    .sec1-wrap {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .blocks {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blocks>div {
+        width: 100%;
+    }
+
+    .overly {
+        background: linear-gradient(to bottom, rgba(77, 77, 255, 0.3) 0%, rgba(77, 77, 255, 0.3) 100%);
+        z-index: 1;
+        height: 100vh;
+    }
+
+}
